@@ -1,0 +1,28 @@
+{
+  "name": "scrounch",
+  "version": "0.0.1",
+  "description": "Scrounch Test App",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinethomas/scrounch.git"
+  },
+  "keywords": [
+    "scrounch"
+  ],
+  "author": "Antoine Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinethomas/scrounch/issues"
+  },
+  "homepage": "https://github.com/antoinethomas/scrounch#readme"
+}
