@@ -1,2 +1,4 @@
 # Specify filepatterns you want git to ignore.
-./node_modules/*
+.gitignore
+/node_modules
+package-lock.json
