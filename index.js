@@ -9,11 +9,12 @@ app.get("/", function (req, res) {
 
 var port = 3000;
 
-app.configure('test', function(){
+if(process.env.NODE_ENV === 'test') {
   port = 3002;
-});
+  // additional prod environemtn configuration
+}
 
-//listen to port
+//listen to port 3000 by default
 app.listen(port);
  
 module.exports = app;
