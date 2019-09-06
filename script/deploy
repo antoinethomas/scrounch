@@ -1,6 +1,7 @@
 #!/bin/sh
-cd /user/pi/dev/www/scrounch
+sudo su - pi
+cd ~/prod/www/scrounch
 git pull
-npm install — production
+npm install —-production
 pm2 restart all
  
