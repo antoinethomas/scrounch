@@ -1,6 +1,10 @@
 #!/bin/sh
-echo "OK"
+echo "OK1"
 cd ~/prod/www/scrounch/
+echo "OK2"
 git pull
+echo "OK3"
 npm install --production
+echo "OK4"
 pm2 restart all
+echo "OK5"
