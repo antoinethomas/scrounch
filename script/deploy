@@ -1,4 +1,5 @@
 #!/bin/sh
+cd /user/pi/dev/www/scrounch
 git pull
 npm install — production
 pm2 restart all
