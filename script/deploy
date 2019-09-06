@@ -1,6 +1,6 @@
 #!/bin/sh
 cd ~/prod/www/scrounch
 git pull
-npm install —-production
+npm install --production
 pm2 restart all
  
