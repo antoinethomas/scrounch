@@ -6,7 +6,14 @@ var app = express();
 app.get("/", function (req, res) {
  res.send("hello world");
 });
-//listen to port 3000 by default
-app.listen(process.env.PORT || 3000);
+
+var port = 3000;
+
+app.configure('test', function(){
+  port = 3002;
+});
+
+//listen to port
+app.listen(port);
  
 module.exports = app;
